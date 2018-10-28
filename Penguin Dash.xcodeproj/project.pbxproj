@@ -12,6 +12,10 @@
 		ED93E01E20EFE4C600A88627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED93E01C20EFE4C600A88627 /* Main.storyboard */; };
 		ED93E02020EFE4C600A88627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED93E01F20EFE4C600A88627 /* Assets.xcassets */; };
 		ED93E02320EFE4C600A88627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED93E02120EFE4C600A88627 /* LaunchScreen.storyboard */; };
+		EDCDA3D0217CDE03006CAAC5 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDA3CF217CDE03006CAAC5 /* BounceButton.swift */; };
+		EDCDA3D2217CE4A2006CAAC5 /* BounceTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDA3D1217CE4A2006CAAC5 /* BounceTitle.swift */; };
+		EDD8E414215569A700F0BED6 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8E413215569A700F0BED6 /* TitleViewController.swift */; };
+		EDD8E416215DB97800F0BED6 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8E415215DB97800F0BED6 /* Emitter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		ED93E01F20EFE4C600A88627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED93E02220EFE4C600A88627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED93E02420EFE4C600A88627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCDA3CF217CDE03006CAAC5 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		EDCDA3D1217CE4A2006CAAC5 /* BounceTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceTitle.swift; sourceTree = "<group>"; };
+		EDD8E413215569A700F0BED6 /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		EDD8E415215DB97800F0BED6 /* Emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emitter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				ED93E01820EFE4C600A88627 /* AppDelegate.swift */,
 				ED93E01A20EFE4C600A88627 /* ViewController.swift */,
+				EDD8E413215569A700F0BED6 /* TitleViewController.swift */,
 				ED93E01C20EFE4C600A88627 /* Main.storyboard */,
 				ED93E01F20EFE4C600A88627 /* Assets.xcassets */,
 				ED93E02120EFE4C600A88627 /* LaunchScreen.storyboard */,
 				ED93E02420EFE4C600A88627 /* Info.plist */,
+				EDD8E415215DB97800F0BED6 /* Emitter.swift */,
+				EDCDA3D1217CE4A2006CAAC5 /* BounceTitle.swift */,
+				EDCDA3CF217CDE03006CAAC5 /* BounceButton.swift */,
 			);
 			path = "Penguin Dash";
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED93E01B20EFE4C600A88627 /* ViewController.swift in Sources */,
+				EDCDA3D0217CDE03006CAAC5 /* BounceButton.swift in Sources */,
 				ED93E01920EFE4C600A88627 /* AppDelegate.swift in Sources */,
+				EDD8E416215DB97800F0BED6 /* Emitter.swift in Sources */,
+				EDCDA3D2217CE4A2006CAAC5 /* BounceTitle.swift in Sources */,
+				EDD8E414215569A700F0BED6 /* TitleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
